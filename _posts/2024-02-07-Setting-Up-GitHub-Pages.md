@@ -58,15 +58,21 @@ categories: CATEGORY-1 CATEGORY-2
 ```
 
 #### Actions
-
+1. New branch
 1. Create a new file
-1. name the file with the correct syntax
+   1. `_posts/YYYY-MM-DD-page-title.md`
 1. Add the front matter
+    ```yaml
+    layout: post
+    title: "Post Title"
+    date: 2024-01-20
+    categories: CATEGORY-1 CATEGORY-2
+    ```
 1. Quick commit the first draft
 1. Add and edit content!
 1. Commit further changes
-1. When ready to publish, merge into `main` with a pull request
-1. Review changes and upon completion, GitHub Actions will publish the new page!
+1. When ready to publish, create a pull request
+1. Review changes and after the merge, GitHub Actions kick off steps to publish the new page!
 
 ## Further References
 
