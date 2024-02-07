@@ -64,8 +64,8 @@ categories: CATEGORY-1 CATEGORY-2
 1. Create a new file
    1. `_posts/YYYY-MM-DD-page-title.md`
 1. Add the front matter
-    ---
     ```yaml
+    ---
     layout: post
     title: "Post Title"
     date: 2024-01-20
