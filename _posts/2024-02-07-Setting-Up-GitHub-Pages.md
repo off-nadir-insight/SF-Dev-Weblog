@@ -51,10 +51,12 @@ Description: My single page referenceable quick notes consolidated from working 
 -   Front matter is the YAML syntax Jekyll files use. Goes at the top of the file and looks like:
 
 ```yaml
+---
 layout: post
 title: "Welcome to my blog"
 date: 2019-01-20
 categories: CATEGORY-1 CATEGORY-2
+---
 ```
 
 #### Actions
@@ -62,11 +64,13 @@ categories: CATEGORY-1 CATEGORY-2
 1. Create a new file
    1. `_posts/YYYY-MM-DD-page-title.md`
 1. Add the front matter
+    ---
     ```yaml
     layout: post
     title: "Post Title"
     date: 2024-01-20
     categories: CATEGORY-1 CATEGORY-2
+    ---
     ```
 1. Quick commit the first draft
 1. Add and edit content!
